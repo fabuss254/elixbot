@@ -172,3 +172,8 @@ function MakeNewConfig(ID){
     });
 }
 **/
+
+bot.on("error", err => {
+    console.log(err);
+ 
+})
