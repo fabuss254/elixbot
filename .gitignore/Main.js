@@ -3,11 +3,11 @@
 /* VARIABLES */
 
 const Discord = require("discord.js");
-const fs = require("fs");
+//const fs = require("fs");
 
 const Preferences = require("./Bot_Modules/Settings.json");
 const Details = require("./Bot_Modules/Bots_Details.json");
-var GuildsData = JSON.parse(fs.readFileSync("./Guild_Save/Settings.json", "utf8"));
+//var GuildsData = JSON.parse(fs.readFileSync("./Guild_Save/Settings.json", "utf8"));
 var prefix = Preferences.Prefix;
 var footer = Preferences.Footer_Embed;
 var IntervalMode = 1;
