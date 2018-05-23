@@ -5,7 +5,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 
-const auth = require("./Bot_Modules/Auth.json");
 const Preferences = require("./Bot_Modules/Settings.json");
 const Details = require("./Bot_Modules/Bots_Details.json");
 var GuildsData = JSON.parse(fs.readFileSync("./Guild_Save/Settings.json", "utf8"));
@@ -40,7 +39,7 @@ bot.on('ready', ()=> {
     bot.setInterval(OnInterval, 10000, TotalUser, AvailableGuild);
 });
 
-bot.login(auth.token);
+bot.login(process.env.TOKEN);
 console.log("Login succesfully!");
 
 bot.on("guildDelete", LeavedGuild => {
