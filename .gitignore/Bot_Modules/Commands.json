@@ -1,0 +1,10 @@
+{
+    "help": {
+        "Usage": ".help <command>",
+        "Description": "Affiche toutes les commandes"
+    },
+    "Config": {
+        "Usage": ".Config <Option> <Arguments>",
+        "Description": "Configurer le bot, .Config pour afficher les options"
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"name": "ElixionBot",
+	"version": "0.1",
+	"description": "Bot de test de fabuss254",
+	"author": "Fabuss254",
+	"main": "Main.js",
+	"engines": {
+		"node": ">=5.7.0"
+	},
+	"scripts": {
+		"start": "node Main.js --harmony"
+	},
+	"license": "none"
+}
